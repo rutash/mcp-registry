@@ -1,0 +1,19 @@
+name: brainattic
+type: remote
+dynamic:
+  tools: true
+meta:
+  category: productivity
+  tags:
+    - productivity
+    - knowledge-management
+    - remote
+about:
+  title: Brainattic
+  description: Read, search, and manage your organization's knowledge base with workspace permissions and rules through the hosted brainattic service
+  icon: https://brainattic.ai/assets/icon-512.png
+remote:
+  transport_type: streamable-http
+  url: https://app.brainattic.ai/api/mcp
+oauth:
+  - provider: brainattic
